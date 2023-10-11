@@ -1,0 +1,11 @@
+framework module Greet {
+  umbrella header "Greet.h"
+
+  export *
+  module * { export * }
+}
+
+module Greet.Swift {
+  header "Greet-Swift.h"
+  requires objc
+}

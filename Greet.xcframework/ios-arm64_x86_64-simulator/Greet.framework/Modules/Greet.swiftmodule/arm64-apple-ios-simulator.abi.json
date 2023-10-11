@@ -1,0 +1,106 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Greet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GreetPersonProtocol",
+        "printedName": "GreetPersonProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "greet",
+            "printedName": "greet(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Greet0A14PersonProtocolP5greet4nameySS_tF",
+            "mangledName": "$s5Greet0A14PersonProtocolP5greet4nameySS_tF",
+            "moduleName": "Greet",
+            "genericSig": "<τ_0_0 where τ_0_0 : Greet.GreetPersonProtocol>",
+            "sugared_genericSig": "<Self where Self : Greet.GreetPersonProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greet",
+            "printedName": "greet(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Greet0A14PersonProtocolPAAE5greet4nameySS_tF",
+            "mangledName": "$s5Greet0A14PersonProtocolPAAE5greet4nameySS_tF",
+            "moduleName": "Greet",
+            "genericSig": "<τ_0_0 where τ_0_0 : Greet.GreetPersonProtocol>",
+            "sugared_genericSig": "<Self where Self : Greet.GreetPersonProtocol>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5Greet0A14PersonProtocolP",
+        "mangledName": "$s5Greet0A14PersonProtocolP",
+        "moduleName": "Greet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nidhisharma\/Desktop\/SPM Experiment\/Greet\/Greet\/GreetPerson.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 16,
+      "value": "\"Hello! \""
+    },
+    {
+      "filePath": "\/Users\/nidhisharma\/Desktop\/SPM Experiment\/Greet\/Greet\/GreetPerson.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
