@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "Greet"
+  spec.name         = "GreetWithCP"
   spec.version      = "1.0.0"
   spec.summary      = "This is a short description of Greet framework."
   spec.description  = "This is a detailed description of Greet, this framework greets the person"
