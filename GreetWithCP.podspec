@@ -18,5 +18,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "16.4"
   spec.source       = { :git => "https://github.com/nidhi5920/GreetWithCP.git", :tag => spec.version.to_s }
   spec.vendored_frameworks = "Greet.xcframework"
+  #spec.source_files  = "Greet/**/*"
   spec.swift_versions = "5.0"
 end
